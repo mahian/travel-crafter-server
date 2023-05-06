@@ -16,7 +16,7 @@ const packageSchema = new mongoose.Schema({
   description: {
     type: String,
   },
-  images: {
+  image: {
     type: String,
   }
 });

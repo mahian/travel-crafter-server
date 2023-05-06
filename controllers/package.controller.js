@@ -31,6 +31,7 @@ exports.createPackage = async (req, res) => {
             destination: req.body.destination,
             description: req.body.description,
             price: req.body.price,
+            image: req.body.image,
         });
         await package.save();
         res.json(package);
