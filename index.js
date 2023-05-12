@@ -5,7 +5,6 @@ const postRoutes = require('./routes/post.route');
 const packageRotes = require('./routes/package.route');
 const userRotes = require('./routes/user.route');
 const bookingRotes = require('./routes/booking.route');
-const getTest = require('./controllers/test.controller');
 require('dotenv').config()
 const connectDB = require('./models/db');
 const app = express();
